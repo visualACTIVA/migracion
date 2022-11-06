@@ -1,0 +1,73 @@
+/*
+Theme Name: migracion.local
+Theme URI: https://migracion.local
+Author: Andreina Reboredo
+Author URI:  https://miosito.com
+Description: Our fantastic base theme
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: migracion
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{ background-color: white;
+  font-family: 'Work-sans' 'Sans-serif';
+}
+.header {
+  border: 1px solid gray;
+  background-color:  gray;
+}
+.footer {
+  border: 1px solid blue;
+  background-color: blue;
+}
+.footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+ .header>nav>ul,a{
+   list-style: none;
+   text-decoration: none;
+   font-size: 20px;
+   display: flex;
+   flex-direction: row;
+  justify-content:   flex-start;
+ }
+ li{
+   margin-bottom: 10px;
+   margin-top: 10px;
+   margin-left: 20px;
+  padding-right: 10px
+}
+.container>h1{
+  margin-left: 50px;
+  margin-top: 50px;
+  align-content: center;
+  align-items: center;
+}
+.container>h3 {
+  border: 1px solid yellow;
+  
+  justify-content:  center;
+ }
+ .container{
+  display: flex;
+  flex-direction: column;
+
+
+}
